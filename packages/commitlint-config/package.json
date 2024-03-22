@@ -4,7 +4,7 @@
   "main": "index.js",
   "description": "git commitlint ",
   "keywords": [
-    "encode",
+    "commitlint",
     "commit",
     "lint"
   ],

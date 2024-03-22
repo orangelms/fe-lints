@@ -7,7 +7,7 @@ Support matching commitlint configuration (https://commitlint.js.org/#/concepts-
 
 
 ```bash
-npm install commitlint-config-encode --save-dev
+npm install @fe-lints/commitlint-config --save-dev
 ```
 
 ## Configuration .commitlintrc
