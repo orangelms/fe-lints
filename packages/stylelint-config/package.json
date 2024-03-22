@@ -11,6 +11,9 @@
   "scripts": {
     "test": "jest"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "author": "Andy.Chen",
   "homepage": "https://github.com/orangelms/fe-lints#readme",
   "license": "MIT",
@@ -29,5 +32,6 @@
   },
   "bugs": {
     "url": "https://github.com/orangelms/fe-lints/issues"
-  }
+  },
+  "gitHead": "6a5aa2adc827a3a6cf9767babd346dca8cbb6f7a"
 }
