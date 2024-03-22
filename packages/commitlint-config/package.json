@@ -1,0 +1,28 @@
+{
+  "name": "@fe-lints/commitlint-config",
+  "version": "0.0.0",
+  "main": "index.js",
+  "description": "git commitlint ",
+  "keywords": [
+    "encode",
+    "commit",
+    "lint"
+  ],
+  "author": "Andy.Chen",
+  "homepage": "https://github.com/orangelms/fe-lints#readme",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orangelms/fe-lints.git"
+  },
+  "bugs": {
+    "url": "https://github.com/orangelms/fe-lints/issues"
+  },
+  "dependencies": {
+    "@commitlint/cli": "^19.2.1",
+    "conventional-changelog-conventionalcommits": "^4.5.0"
+  }
+}
