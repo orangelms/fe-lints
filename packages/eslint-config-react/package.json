@@ -1,0 +1,24 @@
+{
+  "name": "@fe-lints/eslint-config-react",
+  "version": "0.0.1",
+  "description": "ESLint React",
+  "author": "Andy.Chen",
+  "homepage": "https://github.com/orangelms/fe-lints#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orangelms/fe-lints.git"
+  },
+  "dependencies": {
+    "@babel/preset-react": "^7.24.1",
+    "eslint-plugin-react": "^7.34.1",
+    "eslint-plugin-react-hooks": "^4.6.0"
+  }
+}
