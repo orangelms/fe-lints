@@ -1,6 +1,6 @@
 {
   "name": "@fe-lints/commitlint-config",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "index.js",
   "description": "git commitlint ",
   "keywords": [
@@ -12,7 +12,8 @@
   "homepage": "https://github.com/orangelms/fe-lints#readme",
   "license": "MIT",
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   },
   "repository": {
     "type": "git",

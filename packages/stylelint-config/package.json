@@ -12,7 +12,8 @@
     "test": "jest"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   },
   "author": "Andy.Chen",
   "homepage": "https://github.com/orangelms/fe-lints#readme",
