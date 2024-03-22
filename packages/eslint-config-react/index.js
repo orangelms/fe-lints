@@ -20,6 +20,17 @@ module.exports = {
     },
     root: true,
     ignorePatterns: ["dist/", "build/", "src/assets", "**/*.min.js", "**/*.md"],
+		// 预设的环境，使用这些环境中的全局变量不会被 no-undef 报错
+		// @link https://eslint.org/docs/user-guide/configuring#specifying-environments
+		env: {
+			browser: true,
+			es6: true,
+			jasmine: true,
+			jest: true,
+			jquery: true,
+			mocha: true,
+			node: true,
+		},
     extends: [
         "eslint:recommended",
         "plugin:react/recommended",

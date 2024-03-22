@@ -1,0 +1,32 @@
+{
+  "name": "@fe-lints/eslint-config-ts",
+  "version": "0.0.3",
+  "description": "ESLint TS",
+  "author": "Andy.Chen",
+  "homepage": "https://github.com/orangelms/fe-lints#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "keywords": [
+    "typescript",
+    "eslint",
+    "eslintconfig"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orangelms/fe-lints.git"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^7.3.1",
+    "@typescript-eslint/parser": "^7.3.1",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-simple-import-sort": "^12.0.0",
+    "eslint-plugin-unused-imports": "^3.1.0"
+  }
+}
