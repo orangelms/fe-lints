@@ -6,6 +6,11 @@
   "homepage": "https://github.com/orangelms/fe-lints#readme",
   "license": "MIT",
   "main": "index.js",
+  "keywords": [
+    "react",
+    "eslint",
+    "eslintconfig"
+  ],
   "files": [
     "index.js"
   ],
