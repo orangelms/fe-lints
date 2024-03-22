@@ -20,5 +20,6 @@
     "@babel/preset-react": "^7.24.1",
     "eslint-plugin-react": "^7.34.1",
     "eslint-plugin-react-hooks": "^4.6.0"
-  }
+  },
+  "gitHead": "cc41096c7bf8212a87cd9e8845dc6ffbf91dfc0f"
 }
