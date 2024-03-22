@@ -1,0 +1,11 @@
+17 error Error: Command failed with exit code 1: git remote update
+17 error fatal: unable to access 'https://github.com/orangelms/fe-lints.git/': Failure when receiving data from the peer
+17 error error: Could not fetch origin
+17 error Fetching origin
+17 error     at makeError (/Users/andychen/Andy/fe-lints/node_modules/execa/lib/error.js:59:11)
+17 error     at module.exports.sync (/Users/andychen/Andy/fe-lints/node_modules/execa/index.js:186:17)
+17 error     at Object.execSync (/Users/andychen/Andy/fe-lints/node_modules/lerna/dist/index.js:142:31)
+17 error     at updateRemote (/Users/andychen/Andy/fe-lints/node_modules/lerna/dist/index.js:7780:18)
+17 error     at isBehindUpstream (/Users/andychen/Andy/fe-lints/node_modules/lerna/dist/index.js:7770:3)
+17 error     at VersionCommand.initialize (/Users/andychen/Andy/fe-lints/node_modules/lerna/dist/index.js:8061:57)
+17 error     at VersionCommand.runCommand (/Users/andychen/Andy/fe-lints/node_modules/lerna/dist/index.js:1861:36)
