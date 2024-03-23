@@ -2,6 +2,7 @@
  * 本文件的规则由 eslint-plugin-react 和 eslint-plugin-react-hooks 提供
  * @link https://www.npmjs.com/package/eslint-plugin-react
  * @link https://www.npmjs.com/package/eslint-plugin-react-hooks
+ * @link 
  */
 
 module.exports = {
@@ -35,9 +36,22 @@ module.exports = {
         "eslint:recommended",
         "plugin:react/recommended",
         "plugin:react-hooks/recommended",
+        'plugin:prettier/recommended',
     ],
     plugins: ["react", "react-hooks"], // react 是  eslint-plugin-react 的缩写
     rules: {
+        // prettier config
+        'prettier/prettier': [
+            'error',
+            {
+            singleQuote: true,
+            trailingComma: 'es5',
+            tabWidth: 2,
+            semi: false,
+            useTabs: false,
+            endOfLine: 'auto'
+            },
+        ],
         // 不要使用模糊的类型检查器 (any, array, object)
         "react/forbid-prop-types": [
             "warn",

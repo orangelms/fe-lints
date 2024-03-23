@@ -62,6 +62,18 @@ module.exports = {
         extraFileExtensions: [".vue"],
     },
     rules: {
+         // prettier config
+         'prettier/prettier': [
+            'error',
+            {
+            singleQuote: true,
+            trailingComma: 'es5',
+            tabWidth: 2,
+            semi: false,
+            useTabs: false,
+            endOfLine: 'auto'
+            },
+        ],
         /**
          * 【强制】将重载的函数写在一起以增加代码可读性
          * @link https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/adjacent-overload-signatures.md
