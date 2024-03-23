@@ -119,4 +119,16 @@ Or to add a rule, For example, the `unit-allowed-list` one:
 }
 ```
 
+### Configuration `package.json`
+
+```json
+{
+  "scripts": {
+  "lint:css": "stylelint \"**/*.scss\"", // or "lint:css": "stylelint \"**/*.{less,css,scss}\""
+  "lint:css:fix": "stylelint --fix \"**/*.scss\"",
+  // other 
+}
+}
+```
+
 We recommend adding more of [Stylelint's rules](https://stylelint.io/user-guide/rules/) to your config as these rules need to be configured to suit your specific needs.

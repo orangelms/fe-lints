@@ -16,6 +16,18 @@ npm install eslint @fe-lints/eslint-config-react --save-dev
 }
 ```
 
+## Configuration `package.json`
+
+```json
+{
+  "scripts": {
+  "lint": "eslint --ext .js,.jsx .", // or  "eslint --ext .js,.jsx src/"
+  "lint:fix": "eslint --fix --ext .js,.jsx .",
+  // other 
+}
+}
+```
+
 See [`eslint` documentation](https://eslint.org/docs/user-guide/configuring) for more information about extending configuration files.
 
 ## License

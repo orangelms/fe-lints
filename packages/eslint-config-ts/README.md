@@ -16,6 +16,18 @@ npm install eslint typescript @fe-lints/eslint-config-ts --save-dev
 }
 ```
 
+## Configuration `package.json`
+
+```json
+{
+  "scripts": {
+  "lint": "eslint --ext .js,.jsx,.ts,.tsx .", // or  "eslint --ext .js,.jsx,.ts,.tsx src/"
+  "lint:fix": "eslint --fix --ext .js,.jsx,.ts,.tsx .",
+  // other 
+}
+}
+```
+
 See [`eslint` documentation](https://eslint.org/docs/user-guide/configuring) for more information about extending configuration files.
 
 ## License
