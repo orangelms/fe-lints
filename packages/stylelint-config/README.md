@@ -64,7 +64,7 @@ _Note: the config is tested against this example, as such the example contains p
 ## Installation
 
 ```bash
-npm install @fe-lints/stylelint-config --save-dev
+npm install stylelint @fe-lints/stylelint-config --save-dev
 ```
 
 ## Usage

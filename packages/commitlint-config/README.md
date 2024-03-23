@@ -12,12 +12,22 @@ npm install @fe-lints/commitlint-config --save-dev
 
 ## Configuration .commitlintrc
 
-update `commitlintrc` file `extends` :
+update `.commitlintrc` file `extends` :
 
 ```json
 {
   "extends": ["@fe-lints/commitlint-config"]
 }
+```
+
+###  `commit message` 
+
+```
+<type>[optional scope]: <subject>
+
+[optional body]
+
+[optional footer(s)]
 ```
 
 ## setting git hook

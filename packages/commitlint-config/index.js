@@ -1,12 +1,16 @@
 module.exports = {
-    parserPreset: "conventional-changelog-conventionalcommits",
+    extends: ['@commitlint/config-conventional'],
     rules: {
+         // 【警告】提交的消息主体部分前应该有一个空行
         "body-leading-blank": [1, "always"],
         // condition: body lines has value or less characters
         "body-max-line-length": [2, "always", 100],
         "footer-leading-blank": [1, "always"],
+         // 消息头部不能超过100字符，超过error
         "footer-max-line-length": [2, "always", 100],
+        // 消息头部不能超过100字符，超过error
         "header-max-length": [2, "always", 100],
+        // 主体部分忽略大小写
         "subject-case": [0],
         /**
          * type 用来描述本次提交的改动类型，可选值及对应含义如下：

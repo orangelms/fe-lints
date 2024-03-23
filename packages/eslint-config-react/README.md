@@ -8,7 +8,7 @@ React specific linting rules for `eslint`
 npm install eslint @fe-lints/eslint-config-react --save-dev
 ```
 
-## Configuration (legacy: `.eslintrc*`) <a id="configuration"></a>
+## Configuration (legacy: `.eslintrc`) <a id="configuration"></a>
 
 ```json
 {

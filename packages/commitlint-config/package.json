@@ -1,6 +1,6 @@
 {
   "name": "@fe-lints/commitlint-config",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "index.js",
   "description": "git commitlint ",
   "keywords": [
@@ -24,6 +24,6 @@
   },
   "dependencies": {
     "@commitlint/cli": "^19.2.1",
-    "conventional-changelog-conventionalcommits": "^4.5.0"
+    "@commitlint/config-conventional": "^19.1.0"
   }
 }

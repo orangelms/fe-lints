@@ -8,7 +8,7 @@ typescript specific linting rules for `eslint`
 npm install eslint typescript @fe-lints/eslint-config-ts --save-dev
 ```
 
-## Configuration (legacy: `.eslintrc*`) <a id="configuration"></a>
+## Configuration (legacy: `.eslintrc`) <a id="configuration"></a>
 
 ```json
 {
