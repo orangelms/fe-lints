@@ -1,6 +1,6 @@
 {
   "name": "@fe-lints/eslint-config-ts",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "ESLint TS",
   "author": "Andy.Chen",
   "homepage": "https://github.com/orangelms/fe-lints#readme",
@@ -32,7 +32,6 @@
     "eslint-plugin-unused-imports": "^3.1.0"
   },
   "peerDependencies": {
-    "prettier": "^3.2.5",
-    "typescript": "^5.4.3"
+    "prettier": "^3.2.5"
   }
 }

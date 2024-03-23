@@ -5,7 +5,7 @@ typescript specific linting rules for `eslint`
 ## Installation
 
 ```sh
-npm install eslint @fe-lints/eslint-config-ts --save-dev
+npm install eslint typescript @fe-lints/eslint-config-ts --save-dev
 ```
 
 ## Configuration (legacy: `.eslintrc*`) <a id="configuration"></a>
