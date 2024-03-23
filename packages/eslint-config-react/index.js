@@ -33,6 +33,7 @@ module.exports = {
 			node: true,
 		},
     extends: [
+        'prettier', //  优先使用主工程的prettier 配置，如果没有配置，才使用eslint 的配置
         "eslint:recommended",
         "plugin:react/recommended",
         "plugin:react-hooks/recommended",
@@ -47,7 +48,7 @@ module.exports = {
             singleQuote: true,
             trailingComma: 'es5',
             tabWidth: 2,
-            semi: false,
+            semi: true,
             useTabs: false,
             endOfLine: 'auto'
             },

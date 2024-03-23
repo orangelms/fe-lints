@@ -34,6 +34,7 @@ module.exports = {
         node: true,
     },
     extends: [
+        'prettier', //  优先使用主工程的prettier 配置，如果没有配置，才使用eslint 的配置
         'eslint:recommended',
         'plugin:@typescript-eslint/recommended',
         'plugin:prettier/recommended',
@@ -69,7 +70,7 @@ module.exports = {
             singleQuote: true,
             trailingComma: 'es5',
             tabWidth: 2,
-            semi: false,
+            semi: true,
             useTabs: false,
             endOfLine: 'auto'
             },
@@ -175,13 +176,7 @@ module.exports = {
         "default-param-last": "off",
         "@typescript-eslint/default-param-last": "off",
 
-        /**
-         * 【强制】优先使用 . 访问对象的属性
-         * @link https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/dot-notation.md
-         * @extend
-         */
-        "dot-notation": "off",
-        "@typescript-eslint/dot-notation": ["error", { allowKeywords: true }],
+        
 
         /**
          * 【关闭】函数返回值必须与声明的类型一致
@@ -859,7 +854,7 @@ module.exports = {
         {
             files: '**/*.js',
             rules: {
-              'import/order': 'error',
+              'import/order': 'off',
               'simple-import-sort/imports': 'off',
               '@typescript-eslint/no-var-requires': 'off',
             },
@@ -873,6 +868,13 @@ module.exports = {
         {
             files: ["*.ts", "*.tsx"],
             rules: {
+                /**
+                 * 【强制】优先使用 . 访问对象的属性
+                 * @link https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/dot-notation.md
+                 * @extend
+                 */
+                "dot-notation": "off",
+                "@typescript-eslint/dot-notation": ["error", { allowKeywords: true }],
                 // Disable `no-undef` rule within TypeScript files because it incorrectly errors when exporting default interfaces
                 // https://github.com/iamturns/eslint-config-airbnb-typescript/issues/50
                 // This will be caught by TypeScript compiler if `strictNullChecks` (or `strict`) is enabled

@@ -1,16 +1,13 @@
 {
   "name": "@fe-lints/stylelint-config",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "style lint",
   "main": "index.js",
   "keywords": [
     "css",
-    "style",
+    "stylelint",
     "lint"
   ],
-  "scripts": {
-    "test": "jest"
-  },
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
@@ -19,13 +16,11 @@
   "homepage": "https://github.com/orangelms/fe-lints#readme",
   "license": "MIT",
   "peerDependencies": {
-    "stylelint": ">=8.3.0",
-    "stylelint-scss": ">=2.0.0"
+    "stylelint": "^16.2.1"
   },
-  "devDependencies": {
-    "jest": "^29.5.0",
-    "stylelint": "^14.3.0",
-    "stylelint-scss": "^4.1.0"
+  "dependencies": {
+    "stylelint-scss": "^6.2.1",
+    "stylelint-config-standard": "^36.0.0"
   },
   "repository": {
     "type": "git",
