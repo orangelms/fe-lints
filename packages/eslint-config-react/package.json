@@ -1,6 +1,6 @@
 {
   "name": "@fe-lints/eslint-config-react",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "ESLint React",
   "author": "Andy.Chen",
   "homepage": "https://github.com/orangelms/fe-lints#readme",
