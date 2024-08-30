@@ -840,15 +840,19 @@ module.exports = {
         'simple-import-sort/exports': 'error',
         '@typescript-eslint/no-unused-vars': 'off',
         "unused-imports/no-unused-imports": "error",
-        "unused-imports/no-unused-vars": [
-            "warn",
-            {
-                "vars": "all",
-                "varsIgnorePattern": "^_",
-                "args": "after-used",
-                "argsIgnorePattern": "^_",
-            },
-        ],
+        /**
+         * 【强制】不允许定义无用变量
+         */
+        "unused-imports/no-unused-vars": "error",
+        // "unused-imports/no-unused-vars": [
+        //     "warn",
+        //     {
+        //         "vars": "all",
+        //         "varsIgnorePattern": "^_",
+        //         "args": "after-used",
+        //         "argsIgnorePattern": "^_",··
+        //     },
+        // ],
     },
     overrides: [
         {

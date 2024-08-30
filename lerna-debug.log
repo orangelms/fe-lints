@@ -1,5 +1,5 @@
 17 error Error: Command failed with exit code 1: git remote update
-17 error fatal: unable to access 'https://github.com/orangelms/fe-lints.git/': Failure when receiving data from the peer
+17 error fatal: unable to access 'https://github.com/orangelms/fe-lints.git/': Could not resolve host: github.com
 17 error error: Could not fetch origin
 17 error Fetching origin
 17 error     at makeError (/Users/andychen/Andy/fe-lints/node_modules/execa/lib/error.js:59:11)
