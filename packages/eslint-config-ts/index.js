@@ -53,6 +53,9 @@ module.exports = {
         // Use eslint-import-resolver-typescript
         "import/resolver": {
             typescript: {},
+            "node": {  
+                "extensions": [".js", ".jsx", ".ts", ".tsx"]  
+              }  
         },
         // Append 'ts' extensions to 'import/extensions' setting
         "import/extensions": [".js", ".ts", ".mjs"],
@@ -844,6 +847,15 @@ module.exports = {
          * 【强制】不允许定义无用变量
          */
         "unused-imports/no-unused-vars": "error",
+        'unused-imports/no-unused-vars-ts': [
+        'error',
+        {
+            vars: 'all',
+            varsIgnorePattern: '^_',
+            args: 'after-used',
+            argsIgnorePattern: '^_',
+        },
+        ],
         // "unused-imports/no-unused-vars": [
         //     "warn",
         //     {
